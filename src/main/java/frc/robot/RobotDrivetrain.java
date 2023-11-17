@@ -36,8 +36,8 @@ public class RobotDrivetrain {
   //Constructor is called in Robot.java to create RobotDrivetrain objects.
   //Nothing needs to happen in the constructor for our purposes
   public RobotDrivetrain(){
-    leftFront.setInverted(false);
-    leftRear.setInverted(false);
+    leftFront.setInverted(true);
+    leftRear.setInverted(true);
   }
   
   //used in Dpad controls and autonomous mode
